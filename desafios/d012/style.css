@@ -67,6 +67,8 @@ section.normal {
 section.imagem {
    color: white;
     background-color: rgba(163, 160, 160, 0.829);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.616);
+    background-attachment: fixed;  /* mantem o fundo da imagem fixa     */
 }
 section {
     padding-top: 10vh;  
@@ -80,6 +82,9 @@ section {
 section.imagem > p {
     display: inline-block ;  /* transforma em uma caixa que se adapta ao conteudo  */
     background-color: rgba(0, 0, 0, 0.473);
+    text-shadow: 2px 2px 0px black;   /* acrescenta sombra ao texto  */
+    border-radius: 10px;
+    padding-left: 12px;
    
 
 } section > p {
@@ -90,12 +95,16 @@ padding-bottom: 2em ;
 
  section#img01 {
     background-image: url(imagens/background001.jpg);
+    background-position:  center ;
+    background-size: cover;
  }
 
 
 
 section#img02 {
 background-image: url(imagens/background002.jpg);
+background-position: center;
+background-size: cover;
 }
 
 
