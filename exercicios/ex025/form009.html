@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario com uma pequena programação </title>
+</head>
+<body>
+    <h1>exemeplo de formulario</h1>
+
+
+<form action="cadastro.php" method="get">
+
+<p>
+<label for="inum">Valor:</label>
+<input type="range" id="inum" min="0" max="10" oninput="ival.innerHTML = Number(inum.value)">
+<output id="ival"></output>
+</p>
+
+<p>
+    <input type="submit" value="Enviar">
+<input type="reset" value="Resetar">
+</p>
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
