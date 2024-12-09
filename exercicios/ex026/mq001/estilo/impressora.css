@@ -1,0 +1,25 @@
+@charset "UTF-8";  
+/* estilo para impress0ras */ 
+
+
+* {
+    padding: 10px; 
+    margin: 10px;
+}
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+}
+menu {
+    display: none;  
+    /*  não faz sentido exibir o menu na impressão */
+}
+ article::after{
+    /*ou seja depois de article , no final */
+content: 'Esse artigo foi impresso através do site www.nunesnoticias.com';
+ }
+ article {
+    /*  para o conteudo não ficar com a largura limitada, ocupando toda largura do papel */
+    width: 100%;
+    
+ }
