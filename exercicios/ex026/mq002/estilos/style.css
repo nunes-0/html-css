@@ -16,6 +16,7 @@ height: 100vw;
 background-color: #233eff;
 background-size: contain;
 background-repeat: no-repeat;
+
 }
 
 h1 {
@@ -24,3 +25,8 @@ color: white ;
 text-shadow: 2px 2px 0px #1526a7 ;
 padding: 10px;
 }
+h2 {
+    color: white;
+    padding: 10px; 
+}
+
