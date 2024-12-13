@@ -1,0 +1,158 @@
+@charset "UTF-8"; 
+
+/* todas as demais midias */
+
+/* Typical Device Breakpoints
+
+pequenas telas: até 600px 
+Celular: de 600px ate 768px
+tablet: 768px ate 992px
+Desktop: 992px até 1200px 
+*/
+
+@media print {
+
+    body {
+        background-image: url(../imagens/back-print.jpg); /* desnecessario */
+    }
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
+    main {
+        border: 2px solid black;
+        width: 90vw;
+    }
+
+    img#phone {
+        display: none; 
+        
+        
+       }
+       img#tablet {
+        display: none;
+    
+       }
+       img#impressão {
+        display: block;
+        margin: auto;
+    
+       }
+       img#pc {
+        display: none;
+       
+    
+       }
+       img#TV {
+        display: none;
+
+        }
+        main:after {
+        content: "Site criado por Yuri nunes";
+        text-decoration: overline;
+        }
+
+}
+
+@media screen and (min-width: 768px)  {
+
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#phone {
+        display: none;
+        
+        
+       }
+       img#tablet {
+        display: block;
+        margin: auto;
+    
+       }
+       img#impressão {
+        display: none;
+    
+       }
+       img#pc {
+        display: none;
+    
+       }
+       img#TV {
+        display: none;
+    
+}
+      }
+@media screen and (min-width: 992px)  {
+
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+     }  
+     img#phone {
+        display: none; 
+        
+        
+       }
+       img#tablet {
+        display: none;
+    
+       }
+       img#impressão {
+        display: none;
+    
+       }
+       img#pc {
+        display: block;
+        margin: auto;
+    
+       }
+       img#TV {
+        display: none;
+
+}
+
+
+
+}
+
+@media screen and (win-width: 1200px)     {
+
+
+body {
+    background-image: url(../imagens/back-tv.jpg);
+}
+
+
+img#phone {
+    display: none; 
+    
+    
+   }
+   img#tablet {
+    display: none;
+
+   }
+   img#impressão {
+    display: none;
+
+   }
+   img#pc {
+    display: none;
+    
+
+   }
+   img#TV {
+    display: block;
+    margin: auto;
+
+
+ }  
+
+ main {
+    width: 700px;
+ }
+
+
+
+
+
+    }
