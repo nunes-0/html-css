@@ -34,6 +34,10 @@ header > h1 {
     color: white;  
    /*li dentro de menu  */
  }
+ menu a {
+    display: block;
+    
+ }
  article {
     width: 600px;
     display: block;
