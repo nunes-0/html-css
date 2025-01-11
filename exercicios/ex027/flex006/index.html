@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexible box (copia 4 )</title>
+</head>
+<body>
+    <style>
+ div.conteiner {
+    background-color: black;
+    display: flex;
+      height: 300px;
+   flex-flow: row wrap;
+   align-content: space-around;
+
+/*para funcionar é nescessario não estar com flex:auto e estar com flex:wrap (quebra) definida */
+
+
+ }
+ div.item {
+    border: 1px solid black;
+    background-color: blue;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    
+  
+    
+ }
+
+
+
+    </style>
+    <div class="conteiner">
+
+      <div class="item">a</div>
+      <div class="item">b</div>
+      <div class="item">c</div>
+      <div class="item">d</div>
+      <div class="item">e</div>
+      <div class="item">f</div>
+
+    </div>
+</body>
+</html>
