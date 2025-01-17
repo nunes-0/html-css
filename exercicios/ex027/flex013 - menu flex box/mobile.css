@@ -1,0 +1,12 @@
+header > nav {
+  flex-flow: column nowrap;
+  width: 80vw;
+ 
+}
+header {
+    flex-flow: column nowrap;
+}
+header > h1 {
+    flex-basis: 50px;
+    
+}
