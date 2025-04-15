@@ -1,12 +1,12 @@
 header > nav {
   flex-flow: column nowrap;
-  width: 80vw;
+  width: 80vw; /* fez com que os itens de dentro , tivessem uma maior laargura    */
  
 }
 header {
     flex-flow: column nowrap;
 }
 header > h1 {
-    flex-basis: 50px;
+  flex-basis: 50px; 
     
 }
